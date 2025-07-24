@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+
+
+
+<form action="/edit" method="post">   
+    <p>Viewing your story. If you want to edit please click on edit buttion</p> <br>
+    <textarea name="edit" id="edit" readonly rows="25" cols="50"><%= textToPost %></textarea> <br>
+    <button type="submit">EDIT</button>
+</form>
+<form action="/delete" method="post">
+    <button type="submit">DELETE</button>
+</form>
+
+<%- include("partials/footer.ejs") %>
