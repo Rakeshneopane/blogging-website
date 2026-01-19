@@ -1,6 +1,3 @@
-Here you go — a complete, polished **`README.md`** you can paste as-is:
-
-````markdown
 # Blogging Website 📝
 
 A simple blogging website built with **Node.js**, **Express**, and **EJS**. It lets users write, view, and manage blog posts (in-memory for now — no database yet).
